@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(leClassesPlayground main.cpp
         Shape.cpp
-        Shape.h)
+        Shape.h
+        Circle.cpp
+        Circle.h)

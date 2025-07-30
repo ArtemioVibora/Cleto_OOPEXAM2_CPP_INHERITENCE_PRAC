@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "Circle.h"
 using namespace std;
 
 //Simple implementation of class
@@ -33,10 +33,15 @@ public:
 };
 
 int main() {
-    A a1(2, 2);
-    A a2;
+    // A a1(2, 2);
+    // A a2;
+    //
+    // a2.enterNumbers();
+    // a1.print();
+    // a2.print();
 
-    a2.enterNumbers();
-    a1.print();
-    a2.print();
+    Circle circle;
+    circle.enterDetails();
+    circle.printDetails();
+
 }

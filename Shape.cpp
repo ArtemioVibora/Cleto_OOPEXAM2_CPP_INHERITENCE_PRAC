@@ -10,6 +10,7 @@ Shape::~Shape() {
     std::cout << "Shape destructor called" << std::endl;
 }
 
+//IF they want to name it jolly or something LMAO... wait I am cooking haha
 void Shape::enterDetails() {
     std::cout << "Enter name of shape: ";
     std::cin >> name;
